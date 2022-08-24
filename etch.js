@@ -19,5 +19,9 @@ defaultGrid(256);
 
 const button = document.querySelector('#gridSize');
 button.addEventListener('click', function (e){
-
+    const newSize = prompt('Please enter grid size');
+    while(sketchPad.firstChild){
+        sketchPad.removeChild(sketchPad.firstChild);
+    }
+    defaultGrid(newSize);
 });
