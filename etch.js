@@ -15,4 +15,4 @@ function defaultGrid(gridSize){
     }
     
 }
-defaultGrid(100);
+defaultGrid(256);
