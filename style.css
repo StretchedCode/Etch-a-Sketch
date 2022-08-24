@@ -1,0 +1,4 @@
+.sketchPad{
+    display: flex;
+    flex-wrap: wrap;
+}
