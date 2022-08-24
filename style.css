@@ -1,8 +1,14 @@
+
+body{
+    margin: 0px;
+}
+
 .sketchPad{
     display: flex;
     flex-wrap: wrap;
+
 }
 .tile{
-    border-radius: 5px;
-    border-color: black;
+    background-color: red;
+    
 }
