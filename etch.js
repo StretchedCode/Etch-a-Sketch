@@ -23,8 +23,6 @@ button.addEventListener('click', function (e){
 
     if (newSize > 10000){
         newSize = 10000;
-        console.log(newSize);
-
     } 
     while(sketchPad.firstChild){
         sketchPad.removeChild(sketchPad.firstChild);
