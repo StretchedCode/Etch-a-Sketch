@@ -16,3 +16,8 @@ function defaultGrid(gridSize){
     
 }
 defaultGrid(256);
+
+const button = document.querySelector('#gridSize');
+button.addEventListener('click', function (e){
+
+});
